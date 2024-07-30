@@ -26,6 +26,11 @@ Welcome to the "Talk to Me" repository, a project designed to seamlessly integra
    git clone https://github.com/Ankit1017/TalkToMe.git
 
 The main script captures audio, converts it to text, processes the text with generative AI, and converts it back to audio. If the phrase "OK Google" is detected in the audio, the process halts; otherwise, it continues with further processing and playback.
+![image](https://github.com/user-attachments/assets/edb4a3da-b5c0-4075-b477-7d354f080c6d)
+![image](https://github.com/user-attachments/assets/390857fe-43a3-4802-9a05-c1e044de2a78)
+![image](https://github.com/user-attachments/assets/2f583051-9f59-4108-8f7e-b622679fbc9b)
+![image](https://github.com/user-attachments/assets/78fcb4c1-1ac8-4d07-80bc-123853577885)
+
 
 Contributing
 We welcome contributions! Please feel free to submit issues and pull requests to improve this project.
