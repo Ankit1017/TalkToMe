@@ -48,17 +48,10 @@ def generate_unique_filename(base_filename):
     filename, file_extension = os.path.splitext(base_filename)
     return f"{filename}_{timestamp}{file_extension}"
 
-def resource_path(relative_path):
-    """Get the absolute path to a resource, works for development and PyInstaller bundle."""
-    try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = Path(__file__).parent
-    return os.path.join(base_path, relative_path)
+
 
 def resize_icon(image_path, size=(50, 50)):
-    with Image.open(resource_path(image_path)) as img:
+    with Image.open(image_path) as img:
         img = img.resize(size, Image.ANTIALIAS)
         return ImageTk.PhotoImage(img)
 
