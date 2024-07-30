@@ -2,7 +2,7 @@ import speech_recognition as sr
 from gtts import gTTS
 import pygame
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyDsyaX_Hf1mjYoSeBs4IJkpa-IwKjG0Wt8")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.0-pro-latest')
 import re
 
